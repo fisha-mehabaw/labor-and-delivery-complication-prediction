@@ -142,15 +142,6 @@ Open a model notebook such as `Randomforest.ipynb` and run the cells in order. K
 
 `Python` · `Pandas` · `scikit-learn` · `imbalanced-learn` · `Jupyter Notebook` · `Supervised Learning` · `Classification` · `Imbalanced Data` · `Predictive Modeling` · `Healthcare Analytics` · `Model Evaluation`
 
-## Limitations and further work
-
-- **Single-dataset evaluation:** Predictive performance may not generalize to different hospitals, patient groups, or time periods.
-- **Class imbalance:** Compare SMOTE against class weighting and threshold adjustments; apply resampling only to training folds.
-- **ROC evaluation:** Recompute ROC AUC from predicted probabilities or decision scores rather than binary predictions.
-- **Reproducibility:** Pin dependency versions, set random seeds, and consolidate experiments into one consistent comparison workflow.
-- **Clinical relevance:** Add sensitivity/specificity, calibration, subgroup performance, confidence intervals, and external validation before considering clinical applications.
-- **Privacy:** Confirm whether repository datasets can legally and ethically be published.
-
 ## Research context
 
 This code accompanies the MSc thesis **“Labor and Delivery Complication Prediction Using Machine Learning Algorithms.”**
